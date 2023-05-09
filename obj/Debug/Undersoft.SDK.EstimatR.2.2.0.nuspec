@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Undersoft.SDK.EstimatR</id>
+    <version>2.2.0</version>
+    <authors>Dariusz Hanc</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Package Description</description>
+    <repository url="https://github.com/undersoft-org/UltimatR" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Undersoft.SDK" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/Properties/nlog.config" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="X:\DEVELOPMENT\PROJECTS\NET\Undersoft\Universer\Undersoft.SDK\src\Undersoft.SDK.EstimatR\bin\Debug\net6.0\Undersoft.SDK.EstimatR.dll" target="lib\net6.0\Undersoft.SDK.EstimatR.dll" />
+    <file src="X:\DEVELOPMENT\PROJECTS\NET\Undersoft\Universer\Undersoft.SDK\src\Undersoft.SDK.EstimatR\Properties\nlog.config" target="content\Properties\nlog.config" />
+    <file src="X:\DEVELOPMENT\PROJECTS\NET\Undersoft\Universer\Undersoft.SDK\src\Undersoft.SDK.EstimatR\Properties\nlog.config" target="contentFiles\any\net6.0\Properties\nlog.config" />
+  </files>
+</package>
